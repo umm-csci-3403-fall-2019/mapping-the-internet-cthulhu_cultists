@@ -28,3 +28,5 @@ We visited:
 * github.com
 * thealexandrian.net
 * ebay.com
+* ymca.int
+* twitch.tv
