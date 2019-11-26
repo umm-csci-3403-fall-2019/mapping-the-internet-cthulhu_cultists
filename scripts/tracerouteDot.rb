@@ -65,7 +65,7 @@ def parse_entries_to_dot(output_file, entries, entry_regex)
   end
 end
 
-output_file_name = "network_graph.dot"
+output_file_name = "weeb.dot"
 output_file = File.open(output_file_name, "w")
 
 print_header(output_file)

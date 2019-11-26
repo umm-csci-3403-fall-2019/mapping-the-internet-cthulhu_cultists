@@ -1,0 +1,78 @@
+digraph network {
+
+// traceroute to amazon.com (176.32.103.205), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)";
+"infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)" -> "ae-1.4079.rtsw.eqch.net.internet2.edu (162.252.70.106)";
+"ae-1.4079.rtsw.eqch.net.internet2.edu (162.252.70.106)" -> "99.82.179.50 (99.82.179.50)";
+"99.82.179.50 (99.82.179.50)" -> "99.82.179.50 (99.82.179.50)";
+"99.82.179.50 (99.82.179.50)" -> "52.95.62.141 (52.95.62.141)";
+"52.95.62.141 (52.95.62.141)" -> "52.93.249.49 (52.93.249.49)";
+"52.93.249.49 (52.93.249.49)" -> "52.93.249.153 (52.93.249.153)";
+"52.93.249.153 (52.93.249.153)" -> "54.240.229.143 (54.240.229.143)";
+"54.240.229.143 (54.240.229.143)" -> "150.222.240.61 (150.222.240.61)";
+"150.222.240.61 (150.222.240.61)" -> "52.93.29.6 (52.93.29.6)";
+"52.93.29.6 (52.93.29.6)" -> "amazon.com (176.32.103.205)";
+
+// traceroute to wizard.gov (166.123.219.80), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "206.108.255.75 (206.108.255.75)";
+"206.108.255.75 (206.108.255.75)" -> "ae0.mpr2.msp1.us.zip.zayo.com (64.125.30.197)";
+"ae0.mpr2.msp1.us.zip.zayo.com (64.125.30.197)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "ae0.mpr2.msp1.us.zip.zayo.com (64.125.30.197)";
+"ae0.mpr2.msp1.us.zip.zayo.com (64.125.30.197)" -> "ae4.cs1.dca2.us.eth.zayo.com (64.125.29.203)";
+"ae4.cs1.dca2.us.eth.zayo.com (64.125.29.203)" -> "ae27.cr1.dca2.us.zip.zayo.com (64.125.30.247)";
+"ae27.cr1.dca2.us.zip.zayo.com (64.125.30.247)" -> "ae4.cs1.dca2.us.eth.zayo.com (64.125.29.203)";
+"ae4.cs1.dca2.us.eth.zayo.com (64.125.29.203)" -> "wizard.gov (166.123.219.80)";
+
+// traceroute to dressings-sauces.org (104.18.167.96), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "104.18.167.96 (104.18.167.96)";
+"104.18.167.96 (104.18.167.96)" -> "dressings-sauces.org (104.18.167.96)";
+
+// traceroute to discovertasmania.com.au (43.245.43.57), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "100g-0-0-0-0.cor02.sjc01.ca.vocus.net (49.255.255.3)";
+"100g-0-0-0-0.cor02.sjc01.ca.vocus.net (49.255.255.3)" -> "100g-0-0-0-0.cor01.sjc01.ca.vocus.net (49.255.255.4)";
+"100g-0-0-0-0.cor01.sjc01.ca.vocus.net (49.255.255.4)" -> "100g-0-0-0-0.cor02.sjc01.ca.vocus.net (49.255.255.3)";
+"100g-0-0-0-0.cor02.sjc01.ca.vocus.net (49.255.255.3)" -> "bundle-200.cor01.alb01.akl.vocus.net.nz (114.31.202.44)";
+"bundle-200.cor01.alb01.akl.vocus.net.nz (114.31.202.44)" -> "bundle-110.bdr01.syd04.nsw.vocus.net.au (175.45.72.31)";
+"bundle-110.bdr01.syd04.nsw.vocus.net.au (175.45.72.31)" -> "bundle-110.bdr01.syd04.nsw.vocus.net.au (175.45.72.31)";
+"bundle-110.bdr01.syd04.nsw.vocus.net.au (175.45.72.31)" -> "discovertasmania.com.au (43.245.43.57)";
+}
