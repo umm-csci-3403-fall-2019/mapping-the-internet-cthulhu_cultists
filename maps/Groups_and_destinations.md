@@ -22,9 +22,9 @@ The moths from 1906 are Melissa and Aaron.
 
 We visited:
 
-en.wikipedia.org
-un.org
-stackoverflow.com
-github.com
-thealexandrian.net
-ebay.com
+* en.wikipedia.org
+* un.org
+* stackoverflow.com
+* github.com
+* thealexandrian.net
+* ebay.com
