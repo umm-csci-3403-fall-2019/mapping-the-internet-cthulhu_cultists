@@ -1,0 +1,19 @@
+digraph network {
+
+// traceroute to www.zombo.com (50.28.51.184), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "equinix-chi.liquidweb.com (208.115.136.138)";
+"equinix-chi.liquidweb.com (208.115.136.138)" -> "lw-dc3-core2-eth2-20.rtr.liquidweb.com (209.59.157.226)";
+"lw-dc3-core2-eth2-20.rtr.liquidweb.com (209.59.157.226)" -> "www.zombo.com (50.28.51.184)";
+}
